@@ -1,0 +1,49 @@
+{
+  "app_name": "MyWebApp",
+  "version": "2.1.0",
+  "debug_mode": false,
+  "environment": "production",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "myapp_db",
+    "username": "admin",
+    "pool_size": 10,
+    "timeout": 30
+  },
+  "api_keys": {
+    "weather": "abc123xyz789",
+    "maps": "xyz789abc456",
+    "payment": "pay_secret_key_123"
+  },
+  "features": {
+    "enable_notifications": true,
+    "enable_analytics": true,
+    "enable_dark_mode": true,
+    "max_upload_size_mb": 10,
+    "allowed_file_types": [
+      ".jpg",
+      ".png",
+      ".pdf",
+      ".docx"
+    ],
+    "session_timeout_minutes": 30
+  },
+  "email": {
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "from_address": "noreply@mywebapp.com",
+    "use_tls": true
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "/var/log/myapp.log",
+    "max_file_size_mb": 50,
+    "backup_count": 5
+  },
+  "cache": {
+    "enabled": true,
+    "ttl_seconds": 3600,
+    "max_entries": 1000
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "user_id": 12345,
+  "username": "johndoe",
+  "email": "john@example.com",
+  "age": 28,
+  "is_active": true,
+  "interests": [
+    "coding",
+    "music",
+    "travel"
+  ],
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "country": "USA",
+    "zip_code": "10001"
+  },
+  "preferences": {
+    "theme": "dark",
+    "notifications": true,
+    "language": "en"
+  },
+  "joined_date": "2023-01-15",
+  "last_login": "2024-12-22T10:30:00Z"
+}

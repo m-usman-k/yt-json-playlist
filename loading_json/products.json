@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "category": "Electronics",
+    "price": 999.99,
+    "in_stock": true,
+    "quantity": 15,
+    "description": "High-performance laptop for professionals",
+    "specs": {
+      "brand": "TechPro",
+      "processor": "Intel i7",
+      "ram": "16GB",
+      "storage": "512GB SSD"
+    },
+    "ratings": {
+      "average": 4.5,
+      "count": 128
+    },
+    "tags": [
+      "computing",
+      "work",
+      "portable"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Wireless Mouse",
+    "category": "Accessories",
+    "price": 29.99,
+    "in_stock": true,
+    "quantity": 50,
+    "description": "Ergonomic wireless mouse with precision tracking",
+    "specs": {
+      "brand": "MouseMaster",
+      "connectivity": "Bluetooth",
+      "battery_life": "6 months",
+      "dpi": 1600
+    },
+    "ratings": {
+      "average": 4.2,
+      "count": 340
+    },
+    "tags": [
+      "accessory",
+      "wireless",
+      "ergonomic"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mechanical Keyboard",
+    "category": "Accessories",
+    "price": 79.99,
+    "in_stock": false,
+    "quantity": 0,
+    "description": "RGB mechanical keyboard with cherry MX switches",
+    "specs": {
+      "brand": "KeyPro",
+      "switch_type": "Cherry MX Blue",
+      "backlight": "RGB",
+      "layout": "Full-size"
+    },
+    "ratings": {
+      "average": 4.7,
+      "count": 215
+    },
+    "tags": [
+      "keyboard",
+      "gaming",
+      "rgb"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "USB-C Hub",
+    "category": "Accessories",
+    "price": 49.99,
+    "in_stock": true,
+    "quantity": 25,
+    "description": "7-in-1 USB-C hub with HDMI and card reader",
+    "specs": {
+      "brand": "ConnectPlus",
+      "ports": 7,
+      "hdmi_support": "4K@60Hz",
+      "power_delivery": "100W"
+    },
+    "ratings": {
+      "average": 4.3,
+      "count": 89
+    },
+    "tags": [
+      "hub",
+      "usb-c",
+      "connectivity"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Webcam HD",
+    "category": "Electronics",
+    "price": 69.99,
+    "in_stock": true,
+    "quantity": 30,
+    "description": "1080p HD webcam with auto-focus",
+    "specs": {
+      "brand": "CamPro",
+      "resolution": "1080p",
+      "fps": 30,
+      "microphone": "Built-in dual mic"
+    },
+    "ratings": {
+      "average": 4.0,
+      "count": 156
+    },
+    "tags": [
+      "camera",
+      "video",
+      "streaming"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Portable SSD",
+    "category": "Storage",
+    "price": 129.99,
+    "in_stock": true,
+    "quantity": 20,
+    "description": "1TB portable SSD with USB 3.2 Gen 2",
+    "specs": {
+      "brand": "StoragePlus",
+      "capacity": "1TB",
+      "interface": "USB 3.2 Gen 2",
+      "read_speed": "1050 MB/s"
+    },
+    "ratings": {
+      "average": 4.6,
+      "count": 267
+    },
+    "tags": [
+      "storage",
+      "portable",
+      "fast"
+    ]
+  }
+]
